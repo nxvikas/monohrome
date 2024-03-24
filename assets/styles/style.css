@@ -1,0 +1,1476 @@
+@import url("./fonts.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Neutral';
+}
+
+p {
+    font-family: 'Manrope-med';
+}
+
+label,
+::placeholder,
+select, input {
+    font-family: 'Manrope-med';
+}
+
+.container {
+    /* margin 0 auto смещает все 1200px в центр */
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.container .link img {
+    width: 18px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+header .container .globe a {
+    text-decoration: none;
+    color: black;
+}
+
+header .container .globe .en {
+    transition: .3s;
+}
+
+header .container .globe .en:hover {
+    transition: .5s;
+    color: black;
+}
+
+header .container .logo a {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: black;
+    transition: .3s;
+}
+
+header .container .logo a:hover {
+    color: rgb(255, 3, 129);
+    transition: .5s;
+}
+
+header .container .globe .en {
+    color: rgba(88, 88, 88, 0.377);
+}
+
+.section-down {
+    width: 100%;
+    border-top: 1px solid rgb(88, 88, 88);
+    border-bottom: 1px solid rgb(88, 88, 88);
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.section-down .container {
+    width: 80%;
+    display: flex;
+    gap: 25px;
+    font-size: 14px;
+    justify-content: center;
+}
+
+.section-down .container a {
+    font-size: 16px;
+    transition: .3s;
+}
+
+.section-down .container a:hover {
+    transition: .5s;
+    color: rgb(53, 105, 247);
+}
+
+.section-down .container a {
+    color: black;
+    text-transform: uppercase;
+}
+
+.section-magaz {
+    margin-bottom: 100px;
+}
+
+.section-magaz .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-magaz .container .left {
+    width: 75%;
+}
+
+.section-magaz .container .left img {
+    width: 820px;
+    height: 450px;
+}
+
+.section-magaz .container .left h2 {
+    font-size: 130px;
+    font-weight: 100;
+}
+
+.section-magaz .container .right img {
+    height: 450px;
+    width: 100%;
+}
+
+.section-magaz .container .right p {
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.section-magaz .container .right {
+    height: 100%;
+    width: 25%;
+    margin-top: 90px;
+}
+
+.section-text {
+    margin-bottom: 60px;
+}
+
+.section-text .container h3 {
+    font-size: 65px;
+    font-weight: 100;
+}
+
+.section-photo .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-photo .container .card img {
+    margin-bottom: 10px;
+}
+
+.section-photo {
+    margin-bottom: 100px;
+}
+
+.section-collection {
+    margin-bottom: 100px;
+}
+
+.section-collection .container {
+    background: url(../img/6.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.section-collection .container .text-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.section-collection .container .text-block .text {
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.section-collection .container .text-block .text h3 {
+    font-size: 65px;
+    font-weight: lighter;
+}
+
+.section-collection .container .text-block .text p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+.section-collection .container .text-block button {
+    width: 250px;
+    height: 70px;
+    color: black;
+    font-size: 14px;
+    transition: .3s;
+}
+
+.section-collection .container .text-block button:hover {
+    transition: .5s;
+    background-color: rgb(231, 126, 39);
+    color: white;
+    cursor: pointer;
+}
+
+.section-sezon .container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.section-sezon .container h3 {
+    font-size: 65px;
+    font-weight: 100;
+}
+
+.section-sezon .container .text-2021 {
+    display: flex;
+    justify-content: end;
+    width: 90%;
+}
+
+.section-color .container {
+    display: flex;
+    gap: 20px;
+}
+
+.section-color {
+    margin-bottom: 100px;
+}
+
+.section-color .container .two-photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-shop {
+    margin-bottom: 100px;
+}
+
+.section-shop .container {
+    display: flex;
+    /* justify-content: center; */
+    gap: 40px;
+}
+
+.section-shop .container .green-shop {
+    width: 43%;
+    height: 100%;
+}
+
+.section-shop .container .green-shop .text-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    height: 50px;
+}
+
+.section-shop .container .green-shop .text-one h3 {
+    font-weight: 100;
+    font-size: 65px;
+}
+
+.section-shop .container .green-shop .text-one p {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.section-shop .container .green-shop .text-two {
+    font-size: 25px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.section-shop .container .knopki {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-shop .container .knopki .knop-text {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.section-shop .container .knopki .knop-text .one {
+    text-decoration: underline rgb(107, 107, 107);
+    cursor: pointer;
+}
+
+.section-shop .container .knopki select {
+    border: 1px solid rgba(107, 107, 107, 0.397);
+    height: 50px;
+    font-size: 12px;
+    padding-left: 10px;
+    color: rgba(107, 107, 107, 0.397);
+    margin-bottom: 30px;
+}
+
+.section-shop .container .knopki select option {
+    color: rgb(27, 27, 27);
+}
+
+.section-shop .container .promo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.section-shop .container .promo h3 {
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.section-shop .container .promo .promocode {
+    border: 1px solid rgba(107, 107, 107, 0.397);
+    height: 50px;
+    font-size: 12px;
+    padding-left: 10px;
+    color: rgba(107, 107, 107, 0.397);
+    width: 50%;
+}
+
+.section-shop .container .promo .promocode::placeholder {
+    color: rgba(107, 107, 107, 0.397);
+}
+
+.section-shop .container .knopki button {
+    height: 65px;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    transition: .3s;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.section-shop .container .knopki button:hover {
+    transition: .5s;
+    cursor: pointer;
+    background-color: rgb(29, 85, 51);
+}
+
+.section-shop .container .opisanie {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section-shop .container .opisanie .up {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(107, 107, 107, 0.397);
+    padding-bottom: 7px;
+    margin-bottom: 15px;
+}
+
+.section-shop .container .opisanie .up .one {
+    cursor: pointer;
+}
+
+.section-shop .container .opisanie .up .two {
+    color: rgba(107, 107, 107, 0.397);
+    cursor: pointer;
+}
+
+.section-shop .container .opisanie .down {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.section-shop .container .green-img {
+    height: 100%;
+}
+
+.section-line {
+    background-color: rgb(10, 10, 10);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.section-line .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-line .container .card {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-line .container .card .fa-solid {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.849);
+}
+
+.section-line .container .card {
+    color: rgba(255, 255, 255, 0.849);
+}
+
+.section-line .container .card .zagolovok {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+.section-line .container .card .txt {
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.section-we {
+    margin-bottom: 100px;
+}
+
+.section-we .container {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.section-we .container .block-text h3 {
+    font-size: 65px;
+    font-weight: 100;
+    margin-bottom: 60px;
+}
+
+.section-we .container .block-text p {
+    width: 80%;
+    letter-spacing: 1px;
+}
+
+.section-podpiska {
+    background-color: rgb(10, 10, 10);
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+.section-podpiska .container .block-text h3 {
+    font-weight: 100;
+}
+
+.section-podpiska .container .block-text {
+    display: flex;
+    color: white;
+    font-size: 65px;
+    flex-direction: column;
+    font-weight: 100;
+    margin-bottom: 60px;
+}
+
+.section-podpiska .container .block-text .block2 {
+    display: flex;
+    justify-content: end;
+}
+
+.section-podpiska .container .two-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-podpiska .container .two-block .block-left {
+    width: 50%;
+}
+
+.section-podpiska .container .two-block .block-left img {
+    height: 80%;
+}
+
+.section-podpiska .container .two-block .block-left p {
+    color: white;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+
+.section-podpiska .container .two-block .block-right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-podpiska .container .two-block .block-right .input {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-podpiska .container .two-block .block-right .input label {
+    color: rgba(240, 240, 240, 0.637);
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.section-podpiska .container .two-block .block-right .input input {
+    margin-bottom: 20px;
+    height: 50px;
+    padding-left: 10px;
+    background: none;
+    border: 1px solid rgba(107, 107, 107, 0.396);
+    color: rgba(240, 240, 240, 0.637);
+}
+
+.section-podpiska .container .two-block .block-right .knopki1 p {
+    color: rgba(240, 240, 240, 0.637);
+    margin-bottom: 15px;
+}
+
+.section-podpiska .container .two-block .block-right .knopki1 label {
+    color: rgba(240, 240, 240, 0.637);
+    font-size: 12px;
+    padding-right: 5px;
+}
+
+.section-podpiska .container .two-block .block-right .knopki2 label {
+    color: rgba(240, 240, 240, 0.637);
+    font-size: 12px;
+}
+
+.section-podpiska .container .two-block .block-right .knopki2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.section-podpiska .container .two-block .block-right .block-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-podpiska .container .two-block .block-right .block-button button {
+    width: 100%;
+    height: 65px;
+    color: rgb(10, 10, 10);
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    transition: .3s;
+}
+
+.section-podpiska .container .two-block .block-right .block-button button:hover {
+    transition: .5s;
+    background-color: rgba(100, 100, 100, 0.904);
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+
+footer .footer {
+    width: 100%;
+}
+
+footer .footer .container {
+    display: flex;
+    justify-content: space-between;
+    color: rgba(240, 240, 240, 0.637);
+    align-items: center;
+    height: 150px;
+}
+
+footer .footer .container p {
+    font-size: 12px;
+}
+
+footer .footer .container .three {
+    display: flex;
+}
+
+footer .footer .container .three .fa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(240, 240, 240, 0.637);
+    margin-right: 20px;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+footer .footer .container .three .fa:hover {
+    transition: .5s;
+    background-color: rgba(155, 155, 155, 0.801);
+    ;
+}
+
+
+@media (max-width: 1200px) {
+    .container {
+        width: 1140px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: 98%;
+    }
+
+    header .container {
+        width: 98%;
+    }
+
+    .section-magaz .container .left {
+        width: 70%;
+    }
+
+    .section-magaz .container .left h2 {
+        font-size: 110px;
+    }
+
+    .section-magaz .container .left img {
+        width: 700px;
+        height: 400px;
+    }
+
+    .section-magaz .container .right img {
+        height: 400px;
+    }
+
+    .section-magaz .container .right {
+        margin-top: 50px;
+    }
+
+    .section-text .container h3 {
+        font-size: 60px;
+    }
+
+    .section-photo .container .card img {
+        width: 320px;
+    }
+
+    .section-collection .container .text-block .text h3 {
+        font-size: 60px;
+    }
+
+    .section-sezon .container h3 {
+        font-size: 60px;
+    }
+
+    .section-color .container .blue img {
+        width: 310px;
+    }
+
+    .section-color .container .pink img {
+        width: 310px;
+    }
+
+    .section-color .container .two-photo .red img {
+        width: 310px;
+    }
+
+    .section-color .container .two-photo .green img {
+        width: 310px;
+    }
+
+    .section-shop .container .green-img img {
+        height: 660px;
+        width: 490px;
+    }
+
+    .section-shop .container .green-shop .text-one h3 {
+        font-size: 60px;
+    }
+    .section-shop .container .knopki button{
+        font-size: 14px;
+    }
+
+    .section-shop .container .green-shop .text-two {
+        font-size: 20px;
+    }
+
+    .section-we .container .block-text h3 {
+        font-size: 60px;
+    }
+
+    .section-podpiska .container .block-text h3 {
+        font-size: 60px;
+    }
+
+    .section-podpiska .container .two-block .block-left img {
+        width: 500px;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 996px) {
+    .container {
+        width: 98%;
+    }
+
+    .section-magaz .container .left h2 {
+        font-size: 100px;
+    }
+
+    .section-magaz .container .left img {
+        width: 640px;
+        height: 350px;
+    }
+
+    .section-magaz .container .right {
+        width: 28%;
+    }
+
+    .section-magaz .container .right img {
+        width: 240px;
+        height: 350px;
+    }
+
+    .section-text .container h3 {
+        font-size: 55px;
+    }
+
+    .section-photo .container .card img {
+        width: 300px;
+    }
+
+    .section-collection .container .text-block .text h3 {
+        font-size: 55px;
+    }
+
+    .section-color .container .blue img {
+        width: 290px;
+    }
+
+    .section-color .container .pink img {
+        width: 290px;
+    }
+
+    .section-sezon .container h3 {
+        font-size: 55px;
+    }
+
+    .section-shop .container .green-shop .text-one h3 {
+        font-size: 55px;
+    }
+
+    .section-we .container .block-text h3 {
+        font-size: 55px;
+    }
+
+    .section-podpiska .container .block-text h3 {
+        font-size: 55px;
+    }
+}
+@media (max-width: 850px){
+    .container{
+        width: 98%;
+    }
+    .section-magaz .container .left h2{
+        font-size: 80px;
+    }
+    .section-magaz .container .left img{
+        width: 500px;
+        height: 300px;
+    }
+    .section-magaz .container .right img{
+        width: 180px;
+        height: 260px;
+    }
+    .section-text .container h3{
+        font-size: 50px;
+    }
+    .section-photo .container .card img{
+        width: 250px;
+    }
+    .section-sezon .container h3{
+        font-size: 50px;
+    }
+    .section-color .container .blue img{
+        width: 260px;
+    }
+    .section-color .container .two-photo .red img{
+        width: 260px;
+    }
+    .section-color .container .two-photo .green img{
+        width: 260px;
+    }
+    .section-color .container .pink img{
+        width: 260px;
+    }
+    .section-shop .container .green-shop .text-one h3{
+        font-size: 50px;
+    }
+    .section-shop .container .green-shop .text-two{
+        font-size: 16px;
+    }
+    .section-shop .container .green-shop .text-one p{
+        font-size: 16px;
+    }
+    .section-shop .container .knopki .knop-text{
+        font-size: 14px;
+    }
+    .section-shop .container .promo h3{
+        font-size: 30px;
+    }
+    .section-shop .container .green-img img{
+        width: 420px;
+        height: 560px;
+    }
+    .section-shop .container .opisanie .down{
+        font-size: 14px;
+    }
+    .section-we .container .block-text h3{
+        font-size: 50px;
+    }
+    .section-podpiska .container .block-text h3{
+        font-size: 50px;
+    }
+    .section-podpiska .container .two-block .block-left img{
+        width: 400px;
+    }
+    .section-podpiska .container .two-block .block-right{
+        width: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 98%;
+    }
+
+    .section-magaz .container .left h2 {
+        font-size: 80px;
+    }
+
+    .section-magaz .container .left img {
+        width: 510px;
+        height: 340px;
+    }
+
+    .section-magaz .container .right img {
+        width: 200px;
+        height: 340px;
+    }
+
+    .section-magaz .container .right {
+        margin-bottom: 35px;
+    }
+
+    .section-magaz .container .right p {
+        font-size: 14px;
+    }
+
+    .section-text .container h3 {
+        font-size: 45px;
+    }
+
+    .section-photo .container .card img {
+        width: 220px;
+    }
+
+    .section-collection .container .text-block .text h3 {
+        font-size: 45px;
+    }
+
+    .section-sezon .container h3 {
+        font-size: 45px;
+    }
+
+    .section-color .container .blue img {
+        width: 230px;
+    }
+
+    .section-color .container .pink img {
+        width: 230px;
+    }
+
+    .section-color .container .two-photo .red img {
+        width: 230px;
+    }
+
+    .section-color .container .two-photo .green img {
+        width: 230px;
+    }
+
+    .section-shop .container .green-shop .text-one h3 {
+        font-size: 45px;
+    }
+
+    .section-shop .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-shop .container .green-img img {
+        width: 400px;
+        height: auto;
+    }
+
+    .section-shop .container .green-shop {
+        width: 100%;
+    }
+
+    .section-color {
+        margin-bottom: 120px;
+    }
+
+    .section-shop {
+        margin-bottom: 120px;
+    }
+
+    .section-we .container .block-text h3 {
+        font-size: 45px;
+    }
+
+    .section-we .container .block-text p {
+        width: auto;
+    }
+
+    .section-podpiska .container .block-text h3 {
+        font-size: 45px;
+    }
+
+    .section-podpiska .container .two-block .block-left img {
+        width: 400px;
+    }
+
+    .section-podpiska .container .two-block {
+        flex-direction: column;
+    }
+
+    .section-podpiska .container .two-block .block-right {
+        width: 100%;
+    }
+
+    .section-podpiska {
+        height: 1100px;
+    }
+
+    .section-podpiska .container .two-block .block-left {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+        align-items: center;
+    }
+
+    .section-podpiska .container .two-block .block-left p {
+        margin-bottom: 0;
+        margin-left: 20px;
+    }
+
+    .section-podpiska .container .two-block .block-right .knopki2 {
+        margin-bottom: 50px;
+    }
+
+    .section-podpiska .container .two-block .block-left {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 98%;
+    }
+
+    .section-magaz .container .left h2 {
+        font-size: 55px;
+    }
+
+    .section-magaz .container .left img {
+        width: 350px;
+        height: 250px;
+    }
+
+    .section-magaz .container .right img {
+        width: 160px;
+        height: 260px;
+    }
+
+    .section-magaz .container {
+        justify-content: start;
+
+    }
+
+    .section-magaz .container .right {
+        margin-bottom: 60px;
+    }
+
+    .section-magaz .container .right p {
+        margin-bottom: 0;
+    }
+
+    .section-text .container h3 {
+        font-size: 35px;
+    }
+
+    .section-photo .container .card img {
+        width: 160px;
+    }
+
+    .section-collection .container .text-block .text h3 {
+        font-size: 35px;
+    }
+
+    .section-collection .container .text-block .text p {
+        font-size: 16px;
+    }
+
+    .section-collection .container {
+        height: 600px;
+    }
+
+    .section-sezon .container h3 {
+        font-size: 35px;
+    }
+
+    .section-color .container .blue img {
+        width: 170px;
+    }
+
+    .section-color .container .two-photo .red img {
+        width: 170px;
+    }
+
+    .section-color .container .two-photo .green img {
+        width: 170px;
+    }
+
+    .section-color .container .pink img {
+        width: 170px;
+    }
+
+    .section-shop .container .green-img img {
+        width: 350px;
+    }
+
+    .section-shop .container .green-shop .text-one h3 {
+        font-size: 35px;
+    }
+
+    .section-shop .container .green-shop .text-two p {
+        font-size: 16px;
+    }
+
+    .section-shop .container .promo h3 {
+        font-size: 30px;
+    }
+
+    .section-line .container .card .zagolovok {
+        font-size: 14px;
+    }
+
+    .section-line .container .card .txt {
+        font-size: 12px;
+    }
+
+    .section-line .container .card .fa-solid {
+        font-size: 20px;
+    }
+
+    .section-line .container {
+        align-items: start;
+    }
+
+    .section-we .container .block-img img {
+        width: 300px;
+    }
+
+    .section-we .container .block-text h3 {
+        margin-bottom: 30px;
+        font-size: 35px;
+    }
+
+    .section-we .container .block-text p {
+        font-size: 16px;
+    }
+
+    .section-we .container {
+        flex-direction: column;
+    }
+
+    .section-podpiska .container .block-text h3 {
+        font-size: 35px;
+    }
+
+    .section-podpiska .container .two-block .block-left img {
+        width: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 98%;
+    }
+
+    header .container .globe a {
+        font-size: 12px;
+    }
+
+    header .container .logo p {
+        font-size: 16px;
+    }
+
+    header .container .globe img {
+        width: 16px;
+    }
+
+    .container .link img {
+        width: 16px;
+    }
+
+    .section-down {
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .section-down .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-magaz .container .left h2 {
+        font-size: 45px;
+    }
+
+    .section-magaz .container .left img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .section-magaz .container .right img {
+        width: 130px;
+        height: 200px;
+    }
+
+    .section-magaz .container .right p {
+        font-size: 12px;
+    }
+    .section-text .container h3 {
+        font-size: 30px;
+    }
+    .section-photo .container .card img{
+        width: 140px;
+    }
+    .section-photo .container .card p{
+        font-size: 14px;
+    }
+    .section-collection .container .text-block .text h3{
+        font-size: 30px;
+    }
+    .section-collection .container .text-block .text p{
+        font-size: 14px;
+    }
+    .section-collection .container{
+        height: 500px;
+    }
+    .section-collection .container .text-block button{
+        width: 200px;
+        height: 60px;
+    }
+    .section-sezon .container h3{
+        font-size: 30px;
+    }
+    .section-color .container .blue img{
+        width: 140px;
+    }
+    .section-color .container .two-photo .red img{
+        width: 140px;
+    }
+    .section-color .container .two-photo .green img{
+        width: 140px;
+    }
+    .section-color .container .pink img{
+        width: 140px;
+    }
+    .section-shop .container .green-img img{
+        width: 300px;
+    }
+    .section-shop .container .green-shop .text-one h3{
+        font-size: 30px;
+    }
+    .section-shop .container .green-shop .text-one p{
+        font-size: 16px;
+    }
+    .section-shop .container .green-shop .knop-text{
+        font-size: 14px;
+    }
+    .section-shop .container .promo h3{
+        font-size: 25px;
+    }
+    .section-shop .container .knopki .but{
+        display: flex;
+        justify-content: center;
+    }
+    .section-shop .container .knopki button{
+        width: 90%;
+        font-size: 14px;
+    }
+    .section-shop .container .opisanie .down p{
+        font-size: 14px;
+    }
+    .section-line .container .card{
+        width: 50%;
+    }
+    .section-line .container{
+        flex-wrap: wrap;
+    }
+    .section-line .container .card .txt{
+        width: 70%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .section-line .container .card{
+        align-items: center;
+    }
+    .section-line .container .card .fa-solid{
+        margin-bottom: 20px;
+    }
+    .section-line{
+        height: 400px;
+    }
+    .section-we .container .block-img img{
+        width: 250px;
+    }
+    .section-we .container .block-text h3{
+        font-size: 30px;
+    }
+    .section-podpiska .container .block-text h3{
+        font-size: 30px;
+    }
+    .section-podpiska .container .two-block .block-left p{
+        font-size: 12px;
+    }
+    .section-podpiska .container .two-block .block-right .block-button button{
+        width: 80%;
+        height: 60px;
+        font-size: 14px;
+    }
+    footer .footer .container p{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 390px) {
+    .container{
+        width: 98%;
+    }
+    .section-down{
+        margin-bottom: 0;
+    }
+    .section-magaz .container .left h2{
+        font-size: 40px;
+    }
+    .section-magaz .container .left img{
+        width: 250px;
+        height: 165px;
+    }
+    .section-magaz .container .right p{
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    .section-magaz .container .right img{
+        width: 110px;
+        height: 160px;
+    }
+    .section-text .container h3{
+        font-size: 25px;
+    }
+    .section-text{
+        margin-bottom: 20px;
+    }
+    .section-photo .container .card img{
+        width: 100px;
+    }
+    .section-photo .container .card p{
+        font-size: 12px;
+    }
+    .section-collection .container{
+        height: 400px;
+    }
+    .section-collection .container .text-block .text h3{
+        font-size: 25px;
+    }
+    .section-collection .container .text-block .text p{
+        font-size: 12px;
+    }
+    
+    .section-sezon .container h3{
+        font-size: 25px;
+    }
+    .section-sezon .container{
+        margin-bottom: 20px;
+    }
+    .section-color .container .blue img{
+        width: 110px;
+    }
+    .section-color .container .two-photo .red img{
+        width: 110px;
+    }
+    .section-color .container .two-photo .green img{
+        width: 110px;
+    }
+    .section-color .container .pink img{
+        width: 110px;
+    }
+    .section-color .container p{
+        font-size: 10px;
+    }
+    .section-shop .container .green-img img{
+        width: 250px;
+    }
+    .section-shop .container .green-shop .text-one h3{
+        font-size: 25px;
+    }
+    .section-shop .container .green-shop .text-one p{
+        font-size: 14px;
+    }
+    .section-shop .container .green-shop .text-two p {
+        font-size: 14px;
+    }
+    .section-shop .container .green-shop .knop-text{
+        font-size: 12px;
+    }   
+    .section-shop .container .promo{
+        align-items: center;
+    }
+    .section-shop .container .knopki button{
+        height: 60px;
+        width: 80%;
+    }
+    .section-shop .container .opisanie .up{
+        font-size: 14px;
+    }
+    .section-shop .container .opisanie .down p{
+        font-size: 12px;
+    }
+    .section-we .container .block-text h3{
+        font-size: 25px;
+    }
+    .section-we .container .block-text p{
+        font-size: 14px;
+    }
+    .section-podpiska .container .block-text h3{
+        font-size: 25px;
+    }
+    .section-podpiska .container .two-block .block-left{
+        flex-direction: column-reverse;
+    }
+    .section-podpiska .container .two-block .block-left img{
+        margin-bottom: 15px;
+    }
+    .section-podpiska .container .two-block .block-right .knopki1 p{
+        font-size: 14px;
+    }
+    .section-podpiska .container .two-block .block-right .knopki1 label{
+        font-size: 11px;
+    }
+    .section-podpiska .container .two-block .block-right .knopki2 label{
+        font-size: 11px;
+    }
+    footer .footer .container p{
+        font-size: 8px;
+    }
+}
+
+/* @media (max-width: 414px){
+    .container{
+        width: 98%;
+    }
+    .section-magaz .container .left h2{
+        font-size: 40px;
+    }
+    .section-magaz .container .left img{
+        width: 260px;
+        height: 170px;
+    }
+    .section-magaz .container .right img{
+        width: 120px;
+        height: 160px;
+    }
+    .section-text .container h3{
+        font-size: 25px;
+    }
+    .section-text{
+        margin-bottom: 40px;
+    }
+    .section-photo .container .card img{
+        width: 120px;
+    }
+    .section-collection .container{
+        height: 400px;
+    }
+    .section-collection .container{
+        font-size: 25px;
+    }
+    .section-sezon .container h3{
+        font-size: 25px;
+    }
+    .section-sezon .container{
+        margin-bottom: 40px;
+    }
+    .section-color .container .blue img{
+        width: 120px;
+    }
+    .section-color .container .two-photo .red img{
+        width: 120px;
+    }
+    .section-color .container .two-photo .green img{
+        width: 120px;
+    }
+    .section-color .container .pink img{
+        width: 120px;
+    }
+    .section-color .container p{
+        font-size: 14px;
+    }
+    .section-shop .container .green-shop .text-one h3{
+        font-size: 25px;
+    }
+    .section-we .container .block-text h3{
+        font-size: 25px;
+    }
+    .section-we .container .block-text p{
+        font-size: 14px;
+    }
+    .section-podpiska .container .block-text h3{
+        font-size: 25px;
+    }
+    .section-podpiska .container .two-block .block-left{
+        flex-direction: column-reverse;
+    }
+    .section-podpiska .container .two-block .block-left img{
+        margin-bottom: 15px;
+    }
+    .section-podpiska .container .two-block .block-right .knopki1 p{
+        font-size: 14px;
+    }
+    footer .footer .container p{
+        font-size: 8px;
+    }
+} */
